@@ -13,4 +13,3 @@ Scenario Outline: Login failed with wrong inputs
       | email            | password | error                    |
       |                  |          | Ingresa una contraseña   |
       | miso@gmail.com   |    1234  | Upss! El correo y        |
-      
