@@ -8,3 +8,9 @@ Scenario Outline: Login failed with wrong inputs
     And I fill with <email> and <password>
     And I try to login
     Then I expect to see <error>
+
+    Examples:
+      | email            | password | error                    |
+      |                  |          | Ingresa una contraseña   |
+      | miso@gmail.com   |    1234  | Upss! El correo y        |
+      
